@@ -15,7 +15,7 @@ Feature Hub Team
 To ensure a professional and enjoyable community experience, we ask that you familiarize yourself with the following rules before posting:
 
 + Please use Markdown (.md) files to format your content.
-+ Our community folders are organized by topics (e.g. retention, LTV, NBO, Churn), and each folder contains an example feature to help guide your submissions.
++ Our community folders are organized by industry (e.g. telecom, finance, e-commerce), and each folder contains an example feature to help guide your submissions.
 + By contributing, you give us permission to publish your material on our website https://www.join.featurehub.ai, where you will be credited as a contributor.
 
 ## Technical Guidelines:
