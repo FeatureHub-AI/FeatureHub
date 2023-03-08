@@ -1,3 +1,6 @@
+
+<img width="262" alt="Screenshot 2023-03-08 at 11 29 09" src="https://user-images.githubusercontent.com/120475714/223689344-60c20c4d-98bc-47f7-a41c-81f653552134.png">
+
 ## contributor-hub
 Dear Contributor,
 
@@ -11,18 +14,19 @@ Feature Hub Team
 
 To ensure a professional and enjoyable community experience, we ask that you familiarize yourself with the following rules before posting:
 
-Please use Markdown (.md) files to format your content.
-Our community folders are organized by topics (e.g. retention, LTV, NBO, Churn), and each folder contains an example feature to help guide your submissions.
-By contributing, you give us permission to publish your material on our website, where you will be credited as a contributor.
++ Please use Markdown (.md) files to format your content.
++ Our community folders are organized by topics (e.g. retention, LTV, NBO, Churn), and each folder contains an example feature to help guide your submissions.
++ By contributing, you give us permission to publish your material on our website, where you will be credited as a contributor.
 
 ## Technical Guidelines:
 
 To submit your material, follow these steps:
 
-Add/edit your material.
-Commit your changes.
-Submit a pull request (PR).
-Await approval from the repository owners.
-Once approved, your changes will be merged.
-We want you to have fun and enjoy being part of the GitHub community. This platform provides a great opportunity for collaboration, learning, and growth. So don't hesitate to contribute!
++ Add/edit your material.
++ Commit your changes.
++ Submit a pull request (PR).
++ Await approval from the repository owners.
++ Once approved, your changes will be merged.
++ We want you to have fun and enjoy being part of the GitHub community. This platform provides a great opportunity for collaboration, learning, and growth. 
++ So don't hesitate to contribute!
 
