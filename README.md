@@ -28,5 +28,5 @@ To submit your material, follow these steps:
 + Await approval from the repository owners.
 + Once approved, your changes will be merged.
 + We want you to have fun and enjoy being part of the GitHub community. This platform provides a great opportunity for collaboration, learning, and growth. 
-+ So don't hesitate to contribute!
+So don't hesitate to contribute!
 
