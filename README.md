@@ -1,11 +1,28 @@
-# contributor-hub
-1. About (purpose of the project)
+## contributor-hub
+Dear Contributor,
 
-2. Contribution guidelines 
-a. The form you expect materila should be written…
-   - .md files
-   - subfolders by topics (e.g. retention -> this folder)
-   - article form (words, demo link to exmaple)
-   - what happens after the contribution (we are publisjing it to our website)
-   
-b. technical guidelines (add/edit material -> commit -> PR -> approval of repository owners -> merge
+As members of the data science community, we are united by our passion for exploring and uncovering insights from data. 
+Your work helps to advance the state of the art in data science, and it has the potential to drive positive change across a wide range of industries and applications. 
+
+Thank you for your efforts and for sharing your knowledge with others. 
+Feature Hub Team
+
+## Contributor Guidelines:
+
+To ensure a professional and enjoyable community experience, we ask that you familiarize yourself with the following rules before posting:
+
+Please use Markdown (.md) files to format your content.
+Our community folders are organized by topics (e.g. retention, LTV, NBO, Churn), and each folder contains an example feature to help guide your submissions.
+By contributing, you give us permission to publish your material on our website, where you will be credited as a contributor.
+
+## Technical Guidelines:
+
+To submit your material, follow these steps:
+
+Add/edit your material.
+Commit your changes.
+Submit a pull request (PR).
+Await approval from the repository owners.
+Once approved, your changes will be merged.
+We want you to have fun and enjoy being part of the GitHub community. This platform provides a great opportunity for collaboration, learning, and growth. So don't hesitate to contribute!
+
