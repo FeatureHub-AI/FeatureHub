@@ -1,6 +1,4 @@
 
-<img width="262" alt="Screenshot 2023-03-08 at 11 29 09" src="https://user-images.githubusercontent.com/120475714/223689344-60c20c4d-98bc-47f7-a41c-81f653552134.png">
-
 ## contributor-hub
 Dear Contributor,
 
@@ -16,7 +14,7 @@ To ensure a professional and enjoyable community experience, we ask that you fam
 
 + Please use Markdown (.md) files to format your content.
 + Our community folders are organized by industry (e.g. telecom, finance, e-commerce), and each folder contains an example feature to help guide your submissions.
-+ By contributing, you give us permission to publish your material on our website https://www.join.featurehub.ai, where you will be credited as a contributor.
+
 
 ## Technical Guidelines:
 
