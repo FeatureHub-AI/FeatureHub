@@ -12,3 +12,5 @@ If you're interested in contributing, please check our [CONTRIBUTORS.md](https:/
 
 We want you to have fun and enjoy being part of our community. It is a great opportunity for collaboration, learning, and growth. 
 So don't hesitate to contribute!
+
+## Getting Started
