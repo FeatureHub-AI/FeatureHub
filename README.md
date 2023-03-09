@@ -1,31 +1,9 @@
 <img width="160" alt="Screenshot 2023-03-09 at 12 59 57" src="https://user-images.githubusercontent.com/120475714/224016962-4f2a45fb-b723-4fac-a747-1328beaaa5ae.png">
 
-Dear Contributor,
+Dear Data Science Community,
 
-As members of the data science community, we are united by our passion for exploring and uncovering insights from data. 
-Your work helps to advance the state of the art in data science, and it has the potential to drive positive change across a wide range of industries and applications. 
+We're excited to introduce our new project aimed at creating the most comprehensive library of features across multiple domains. Our goal is to create a dataset that serves as a valuable resource for researchers and data scientists worldwide.
 
-Thank you for your efforts and for sharing your knowledge with others. 
-Feature Hub Team
+We invite all data scientists to contribute to this project, leveraging their expertise to create a dataset that covers a wide range of topics and applications. Together, we can create something remarkable that benefits the entire data science community.
 
-## Contributor Guidelines:
-
-To ensure a professional and enjoyable community experience, we ask that you familiarize yourself with the following rules before posting:
-
-+ Please use Markdown (.md) files to format your content.
-+ Our community folders are organized by industry (e.g. telecom, finance, e-commerce), and each folder contains an example feature to help guide your submissions.
-
-
-## Technical Guidelines:
-
-To submit your material, follow these steps:
-
-+ Add/edit your material.
-+ Commit your changes.
-+ Submit a pull request (PR).
-+ Await approval from the repository owners.
-+ Once approved, your changes will be merged.
-
-We want you to have fun and enjoy being part of the FeatureHub community. It is a great opportunity for collaboration, learning, and growth. 
-So don't hesitate to contribute!
-
+If you're interested in contributing, please check our [contributors' page]. We look forward to working with you to create a dataset that serves as the foundation for countless research projects and innovations.
