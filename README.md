@@ -1,5 +1,5 @@
+<img width="160" alt="Screenshot 2023-03-09 at 12 59 57" src="https://user-images.githubusercontent.com/120475714/224016962-4f2a45fb-b723-4fac-a747-1328beaaa5ae.png">
 
-## contributor-hub
 Dear Contributor,
 
 As members of the data science community, we are united by our passion for exploring and uncovering insights from data. 
