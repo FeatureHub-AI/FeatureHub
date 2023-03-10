@@ -20,7 +20,7 @@ To ensure a professional and enjoyable community experience, we ask that you fam
 
 + Please use Markdown (.md) files to format your content.
 + Our community folders are organized by industry (e.g. telecom, finance, e-commerce)
-+ Here you can find an [example feature] to help guide your submissions.
++ Here you can find an [example feature](https://github.com/FeatureHub-AI/FeatureHub/blob/main/FEATURE_EXAMPLE.md) to help guide your submissions.
 
 
 ### Technical Guidelines:
