@@ -19,7 +19,8 @@ So don't hesitate to contribute!
 To ensure a professional and enjoyable community experience, we ask that you familiarize yourself with the following rules before posting:
 
 + Please use Markdown (.md) files to format your content.
-+ Our community folders are organized by industry (e.g. telecom, finance, e-commerce), and each folder contains an example feature to help guide your submissions.
++ Our community folders are organized by industry (e.g. telecom, finance, e-commerce)
++ Here you can find an [example feature] to help guide your submissions.
 
 
 ### Technical Guidelines:
