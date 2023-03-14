@@ -106,11 +106,11 @@ sender_type - this is category, can be calculated by dimension or dictionary tab
 
 ## Additional info
 
-#### Origin 🕵🏻‍♂️
+#### Origin
 
 Overall usage of this kind of dimension tables to determine sender type appeared when big data become popular, so data scientists started to search for extra information in raw data rather than generic aggregations.
 
-#### Related articles 📚
+#### Related articles
 
 
 
