@@ -1,10 +1,3 @@
-# New Balance After the Transaction
-
-Assigned to: Irina G
-Created by: Irina G
-Industry: Finance
-Priority: Low
-Status: In work
 
 # **New Balance After the Transaction**
 
