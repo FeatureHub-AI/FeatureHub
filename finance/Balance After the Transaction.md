@@ -44,8 +44,8 @@ The result of the calculation would be a table with the following columns:
 | ... | ... | ... | ... | ... |
 
 ## **Feature Performance**
+<img width="1000" alt="Screenshot_2023-02-13_at_13 54 56" src="https://user-images.githubusercontent.com/120475714/225043639-08ae4c90-1b6c-4b74-8250-e03e3e01111c.png">
 
-![Screenshot 2023-02-13 at 13.54.56.png](New%20Balance%20After%20the%20Transaction%20798e3540e5bf410487be58419b5651bd/Screenshot_2023-02-13_at_13.54.56.png)
 
 ## **Additional Info**
 
