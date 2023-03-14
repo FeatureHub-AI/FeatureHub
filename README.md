@@ -22,6 +22,7 @@ To ensure a professional and enjoyable community experience, we ask that you fam
 
 + Please use Markdown (.md) files to format your content.
 + Our community folders are organized by industry (e.g. telecom, finance, e-commerce)
++ New machine learning features should include a clear idea behind and methodology for construction. The idea should explain why the feature is important, while the methodology should describe the calculation process and data sources. Including code and data can aid replication and validation efforts. This information will allow other researchers to understand the feature's purpose and validate its results, ultimately contributing to the advancement of the field.  
 + Here you can find an [example feature](https://github.com/FeatureHub-AI/FeatureHub/blob/main/FEATURE_EXAMPLE.md) to help guide your submissions.
 
 
