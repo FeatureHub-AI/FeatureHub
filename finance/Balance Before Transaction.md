@@ -1,6 +1,6 @@
 
 
-# Initial Balance Before the Transaction**
+# Initial Balance Before the Transaction
 
 Initial balance before the transaction refers to the balance of a customer prior to any transactions being made. 
 
@@ -57,11 +57,8 @@ The result table for the initial balance before the transaction is shown below:
 
 ## **Feature performance**
 
- 
+<img width="1000" alt="Screenshot_2023-02-13_at_13 54 56" src="https://user-images.githubusercontent.com/120475714/225043147-edd2d22b-ff8e-475f-a477-dfaf47b73971.png">
 
-![Screenshot 2023-02-13 at 13.54.56.png](Initial%20Balance%20Before%20Transaction%20138221199a474d41ab5b86b63cc265d6/Screenshot_2023-02-13_at_13.54.56.png)
-
-## **Additional Info**
 
 For further information on how to use this feature for predicting customer churn, please refer to the following articles:
 
