@@ -6,7 +6,7 @@
 
 Dear Data Science Community,
 
-We're excited to introduce our new project FeatureHub started bey the analytical & consulting team of Datascopum aimed at creating the most comprehensive library of AI/ML features across multiple domains. Our goal is to create a dataset that serves as a valuable resource for researchers and data scientists worldwide.
+We're excited to introduce our new project FeatureHub started by the analytical & consulting team of Datascopum aimed at creating the most comprehensive library of AI/ML features across multiple domains. Our goal is to create a dataset that serves as a valuable resource for researchers and data scientists worldwide.
 
 We invite all data scientists to contribute to this project, leveraging their expertise to create a dataset that covers a wide range of topics and applications. Together, we can create something remarkable that benefits the entire data science community.
 
