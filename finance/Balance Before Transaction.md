@@ -1,12 +1,6 @@
-# Initial Balance Before  Transaction
 
-Assigned to: Alex Marfin
-Created by: Irina G
-Industry: Finance
-Priority: Medium
-Status: For Alex final review
 
-# **Initial Balance Before the Transaction**
+# Initial Balance Before the Transaction**
 
 Initial balance before the transaction refers to the balance of a customer prior to any transactions being made. 
 
