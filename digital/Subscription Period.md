@@ -6,7 +6,7 @@ This feature refers to the length of time that a user subscribes to a product or
 
 ## **The Idea Behind**
 
-The subscription period has a significant impact on the lifetime value of an app user. The length of the subscription period can be used as an indicator of customer’s loyalty and engagement. We expect users who commit to longer subscription periods are more likely to have a vested interest in the app. 
+The subscription period has a significant impact on the lifetime value of an app user. The length of the subscription period can be used as an indicator of customer’s loyalty and engagement. We expect users who commit to longer subscription periods use the app and understand its value, and are more likely to have a vested interest in the app. 
 
 ## **Methodology**
 
