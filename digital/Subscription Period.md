@@ -55,3 +55,12 @@ SELECT user_id, start_date, end_date, DATEDIFF(end_date, start_date) ASsubscri
 | 6 | 2021-12-01 | 2022-05-31 | 181 |
 | 7 | 2022-01-01 | 2023-01-01 | 365 |
 | 8 | 2022-02-01 | 2022-02-15 | 14 |
+
+## **Feature performance**
+
+<img width="341" alt="Screenshot 2023-03-15 at 13 14 34" src="https://user-images.githubusercontent.com/120475714/225306691-7216fd3c-064b-4913-824f-d19382b9b71d.png">
+
+
+Validated with SHAP values
+
+## **Additional Info**
