@@ -61,7 +61,9 @@ Here is an example table that shows how the Subscription Price feature can be ca
 
 ## **Feature performance**
 
+<img width="332" alt="Screenshot 2023-03-15 at 13 14 10" src="https://user-images.githubusercontent.com/120475714/225306360-32ab45cc-8732-4e1f-b140-f5f8c914426c.png">
 
+Validated with SHAP values
 
 ## **Additional Info**
 
