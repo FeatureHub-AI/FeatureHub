@@ -61,8 +61,8 @@ Here is an example table that shows how the Subscription Price feature can be ca
 
 ## **Feature performance**
 
-N/A
+
 
 ## **Additional Info**
 
-N/A
+
