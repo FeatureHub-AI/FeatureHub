@@ -1,23 +1,23 @@
 
 # **Theme Color**
 
-The Theme Color feature allows users to customize the background color of their phone by switching between light mode and dark mode.
+The theme color feature allows users to customize the background color of their phone by switching between light mode and dark mode.
 
 ## **The idea behind**
 
-The Theme Color feature addresses the growing demand for customization options in smartphones. By default, most phones are set to light mode, but many users prefer using dark mode due to its aesthetic appeal and potential benefits for reducing eye strain. This feature allows users to easily switch between light mode and dark mode, providing them with a more personalized experience while also potentially improving their visual comfort.
+By default, the theme is set to light mode, but users have the option to switch to dark mode at any time. It is assumed that users who customize their settings are more technically adept and pay more attention to the applications they install on their phone.
 
 ## **Methodology**
 
-To implement the Theme Color feature, we used a simple approach that involves detecting whether the user has switched to dark mode or light mode and updating the background color of the phone accordingly. This was achieved through a formula that maps the state of the phone's Theme Color setting to a specific background color.
+To implement the theme color feature, we used a simple approach that involves detecting whether the user has switched to dark mode or light mode and updating the background color of the phone accordingly. This was achieved through a formula that maps the state of the phone's theme color setting to a specific background color.
 
 ### **Data source**
 
-The Theme Color feature does not require external data sources. Instead, it relies on the user's selection of either light or dark mode to determine the appropriate background color for the phone.
+The theme color feature does not require external data sources. Instead, it relies on the user's selection of either light or dark mode to determine the appropriate background color for the phone.
 
 ### **SQL code**
 
-The Theme Color feature does not require any SQL code to assemble the feature as it is natively built into the phone's operating system.
+Does not require any SQL code to assemble the feature as it is natively built into the phone's operating system.
 
 ### **Result table (example of how to calculate the feature)**
 
@@ -27,7 +27,9 @@ The Theme Color feature does not require any SQL code to assemble the feature as
 | Dark | #000000 |
 
 ## **Feature performance**
+<img width="313" alt="Screenshot 2023-03-15 at 13 13 46" src="https://user-images.githubusercontent.com/120475714/225306065-04ed9e8a-ec50-4346-a1c4-73fbefcaef2a.png">
 
-The Theme Color feature does not have a Shap value as it does not involve any machine learning models.
+Validated with SHAP Values
+
 
 ## **Additional Info**
