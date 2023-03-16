@@ -28,6 +28,7 @@ Does not require any SQL code to assemble the feature as it is natively built in
 
 ## **Feature performance**
 <img width="313" alt="Screenshot 2023-03-15 at 13 13 46" src="https://user-images.githubusercontent.com/120475714/225306065-04ed9e8a-ec50-4346-a1c4-73fbefcaef2a.png">
+<img width="333" alt="Screenshot 2023-03-16 at 14 10 36" src="https://user-images.githubusercontent.com/120475714/225627049-3d9cb210-741f-40da-89f6-c6cbdcd98f2e.png">
 
 Validated with SHAP Values
 
