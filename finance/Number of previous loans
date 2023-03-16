@@ -1,0 +1,64 @@
+# **Number of previous loans**
+
+Provides information about the borrower's credit history and their experience in managing credit
+
+## **The idea behind**
+
+Borrowers with a higher number of previous loans may be seen as less risky because they have a proven track record of repaying loans.
+
+## **Methodology**
+
+To create this feature, we count the number of previous loans that a customer has taken out.
+
+### **Data source**
+
+The data used to create this feature is taken from the Home Credit Default Risk competition on Kaggle. Specifically, we use the **`previous_application.csv`** file, which contains information about previous applications for loans at Home Credit. We use the following columns from the file:
+
+- **`SK_ID_CURR`**: ID of the borrower
+- **`SK_ID_PREV`**: ID of the previous loan
+
+Here is an example table showing the first 10 rows of the **`previous_application.csv`** file:
+
+| SK_ID_CURR | SK_ID_PREV |
+| --- | --- |
+| 100002 | 1369693 |
+| 100003 | 1038818 |
+| 100003 | 1810518 |
+| 100003 | 2636178 |
+| 100003 | 2396755 |
+| 100004 | 1564014 |
+| 100006 | 2078043 |
+| 100006 | 2827850 |
+| 100006 | 2190416 |
+| 100006 | 1489396 |
+
+### **SQL code**
+
+To assemble the feature, we use the following SQL code:
+
+```sql
+
+SELECT SK_ID_CURR, COUNT(DISTINCT SK_ID_PREV) AS PREVIOUS_LOANS_CNT
+FROM previous_application
+GROUP BY SK_ID_CURR
+```
+
+### **Result table (example of how to calculate the feature)**
+
+Here is an example table showing how the feature is assembled for the first 10 customers:
+
+| SK_ID_CURR | PREVIOUS_LOANS_CNT |
+| --- | --- |
+| 100002 | 1 |
+| 100003 | 4 |
+| 100004 | 1 |
+| 100006 | 4 |
+
+## **Feature performance**
+
+No Shap value is provided for this feature.
+
+## **Additional Info**
+
+- Kaggle Home Credit Default Risk competition: **[https://www.kaggle.com/c/home-credit-default-risk](https://www.kaggle.com/c/home-credit-default-risk)**
+- **`previous_application.csv`** file: **[https://www.kaggle.com/c/home-credit-default-risk/data?select=previous_application.csv](https://www.kaggle.com/c/home-credit-default-risk/data?select=previous_application.csv)**
