@@ -38,7 +38,7 @@ SELECT SK_ID_CURR, AMT_CREDIT, AMT_ANNUITY, AMT_CREDIT / AMT_ANNUITY ASNEW_C
 
 ```
 
-### **Assembling example**
+### **Example**
 
 Using the **`loan_info`** table above, the SQL code will produce the following table:
 
