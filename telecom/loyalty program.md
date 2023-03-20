@@ -11,6 +11,8 @@ Transactional data on collecting and redeeming loyalty points or bonuses by cust
 ## Redeemed **bonuses by time period**
 The total number of loyalty points or bonuses that a customer has redeemed during specific period of time
 
+[Detailed feature: methodology, code data source](https://towardsdatascience.com/end-to-end-machine-learning-project-telco-customer-churn-90744a8df97d)
+
 **LP_SWAP_SUM_ALL**: The sum of redeemed bonuses -  since enrolment 
 
 **LP_SWAP_SUM_3M**: The sum of redeemed bonuses - during last 3 months prior to the scoring date
