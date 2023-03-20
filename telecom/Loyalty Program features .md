@@ -9,7 +9,6 @@ Redeeming points for rewards often indicates that the customer is actively takin
 Transactional data on collecting and redeeming loyalty points or bonuses by customers. This includes information on the customer's transactions, such as the number of points earned or redeemed, the date and time of the transaction, and the type of rewards or bonuses redeemed. This data is typically collected through point-of-sale (POS) systems, customer relationship management (CRM) platforms, or other loyalty program management tools.
 
 ## Redeemed **bonuses by time period**
-
 The total number of loyalty points or bonuses that a customer has redeemed during specific period of time
 
 **LP_SWAP_SUM_ALL**: The sum of redeemed bonuses -  since enrolment 
@@ -33,7 +32,6 @@ The total number of loyalty points or bonuses that a customer has redeemed durin
 **LP_SWAP_SUM_12M:** The sum of redeemed bonuses - in the last year prior to the scoring date
 
 ## Frequency of bonus redemption
-
 The number of times the user has exchanged bonuses for rewards in the certain period
 
 **LP_SWAP_CNT_ALL**: The number of times the user has redeemed bonuses - since enrolment
