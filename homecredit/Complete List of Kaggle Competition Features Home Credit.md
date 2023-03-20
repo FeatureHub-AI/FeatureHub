@@ -1,3 +1,6 @@
+
+# From Kaggler: https://www.kaggle.com/code/tunguz/xgb-simple-features
+
 ### Pre-processed
 
 1. **`NEW_CREDIT_TO_ANNUITY_RATIO`**: The ratio of the amount of credit taken to the amount of annuity to be paid by the borrower
