@@ -68,3 +68,35 @@
 28. **`RATE_DOWN_PAYMENT`**: The minimum, maximum and mean value of the down payment rate normalized on the previous application.
 29. **`DAYS_DECISION`**: The minimum, maximum and mean value of the number of days since the previous application when the decision to grant the loan was made.
 30. **`CNT_PAYMENT`**: The mean and sum of the number of payments that the client has to make on the previous loan.
+31. **`PREV_NUM_APPLIANCE`**: Max/mean/sum of the number of previous applications for a given client.
+32. **`PREV_AMT_ANNUITY_MAX`**: Maximum of the previous loan amount annuity for a given client.
+33. **`PREV_AMT_ANNUITY_MEAN`**: Mean of the previous loan amount annuity for a given client.
+34. **`PREV_AMT_APPLICATION_MAX`**:Maximum of the previous application amount for a given client.
+35. **`PREV_AMT_APPLICATION_MEAN`**: Mean of the previous application amount for a given client.
+36. **`PREV_AMT_CREDIT_MAX`**: Maximum of the previous credit amount for a given client.
+37. **`PREV_AMT_CREDIT_MEAN`**: Mean of the previous credit amount for a given client.
+38. **`PREV_AMT_DOWN_PAYMENT_MAX`**:Maximum of the previous down payment amount for a given client.
+39. **`PREV_AMT_DOWN_PAYMENT_MEAN`**: Mean of the previous down payment amount for a given client.
+40. **`PREV_AMT_GOODS_PRICE_MAX`**: Maximum of the previous goods price for a given client.
+41. **`PREV_AMT_GOODS_PRICE_MEAN`**: Mean of the previous goods price for a given client.
+42. **`PREV_HOUR_APPR_PROCESS_START_MAX`**: Maximum of the hour of the day when the client applied for the previous loan.
+43. **`PREV_HOUR_APPR_PROCESS_START_MEAN`**: Mean of the hour of the day when the client applied for the previous loan.
+44. **`PREV_RATE_DOWN_PAYMENT_MAX`**: Maximum of the rate of down payment on the previous loan.
+45. **`PREV_RATE_DOWN_PAYMENT_MEAN`**: Mean of the rate of down payment on the previous loan.
+46. **`APPROVED_AMT_ANNUITY_MAX`**: Maximum of the approved loan amount annuity for a given client.
+47. **`APPROVED_AMT_ANNUITY_MEAN`**: Mean of the approved loan amount annuity for a given client.
+48. **`APPROVED_AMT_APPLICATION_MAX`**: Maximum of the approved application amount for a given client.
+49. **`APPROVED_AMT_APPLICATION_MEAN`**: Mean of the approved application amount for a given client.
+50. **`APPROVED_AMT_CREDIT_MAX`**: Maximum of the approved credit amount for a given client.
+51. **`APPROVED_AMT_CREDIT_MEAN`**: Mean of the approved credit amount for a given client.
+52. **`REFUSED_AMT_ANNUITY_MAX`**: Maximum of the refused loan amount annuity for a given client.
+53. **`REFUSED_AMT_ANNUITY_MEAN`**: Mean of the refused loan amount annuity for a given client.
+54. **`REFUSED_AMT_APPLICATION_MAX`**: Maximum of the refused application amount for a given client.
+55. **`REFUSED_AMT_APPLICATION_MEAN`**: Mean of the refused application amount for a given client.
+56. **`REFUSED_AMT_CREDIT_MAX`**: Maximum of the refused credit amount for a given client.
+57. **`REFUSED_AMT_CREDIT_MEAN`**: Mean of the refused credit amount for a given client.
+58. **`POS_MONTHS_BALANCE_MAX`**: Maximum of the months balance for the previous POS (point of sale) cash balance for a given client.
+59. **`POS_MONTHS_BALANCE_MEAN`**: Mean of the months balance for the previous POS (point of sale) cash balance for a given client.
+60. **`POS_SK_DPD_MAX`**: Maximum of the days past due (DPD) for the previous POS cash balance for a given client.
+61. **`POS_SK_DPD_MEAN`**: Mean of the days past due (DPD) for the previous POS cash balance for a given client.
+62. **`POS_SK_DPD_DEF_MAX`**: Maximum of the days past due (DPD) during the previous POS cash
