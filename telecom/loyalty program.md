@@ -1,4 +1,4 @@
-# Loyalty Program Features
+# Loyalty program
 
 Contributed by: [@ilyaostrovskygit](https://github.com/ilyaostrovskygit)<br> 
 Inspired by: [@alexfhgit](https://github.com/alexfhgit) projects <br>
