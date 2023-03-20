@@ -1,6 +1,7 @@
 # Loyalty Program Features
 
-Contributed by: [@ilyaostrovskygit](https://github.com/ilyaostrovskygit)
+Contributed by: [@ilyaostrovskygit](https://github.com/ilyaostrovskygit)<br> 
+Inspired by: [@alexfhgit](https://github.com/alexfhgit) projects <br>
 
 **The idea behind** 
 
@@ -11,10 +12,8 @@ Redeeming points for rewards often indicates that the customer is actively takin
 Transactional data on collecting and redeeming loyalty points or bonuses by customers. This includes information on the customer's transactions, such as the number of points earned or redeemed, the date and time of the transaction, and the type of rewards or bonuses redeemed. This data is typically collected through point-of-sale (POS) systems, customer relationship management (CRM) platforms, or other loyalty program management tools.
 
 ## Redeemed bonuses by time period
-
-Methodology, code data source [here](https://github.com/FeatureHub-AI/FeatureHub/blob/b7b8a35a7e325dc50bd6d182ad17289e4da019bf/telecom/Last%20SIM%20Change.md)
-
 The total number of loyalty points or bonuses that a customer has redeemed during specific period of time
+Methodology: [here](https://github.com/FeatureHub-AI/FeatureHub/blob/b7b8a35a7e325dc50bd6d182ad17289e4da019bf/telecom/Last%20SIM%20Change.md)
 
 **LP_SWAP_SUM_ALL**: The sum of redeemed bonuses -  since enrolment 
 
