@@ -52,7 +52,7 @@ The number of times the user has exchanged bonuses for rewards in the certain pe
 
 **LP_SWAP_CNT_W4**: The number of times the user has redeemed bonuses - during the 4th week  prior to the scoring date
 
-## Other features
+## Other features related to loyalty program
 
 **LP_BALANCE_CURR**: The current balance of bonuses in the loyalty program
 
