@@ -96,7 +96,7 @@ The number of times the user has exchanged bonuses for rewards in the certain pe
 **LP_SWAP_CNT_W1**: The number of times the user has redeemed bonuses - during the 1st week  prior to the scoring date
 ```
 
-**LP_SWAP_CNT_W2**: The number of times the user has redeemed bonuses - during the 2nd week  prior to the scoring date
+**💡 LP_SWAP_CNT_W2**: The number of times the user has redeemed bonuses - during the 2nd week  prior to the scoring date
 
 **LP_SWAP_CNT_W3**: The number of times the user has redeemed bonuses - during the 3rd week  prior to the scoring date
 
