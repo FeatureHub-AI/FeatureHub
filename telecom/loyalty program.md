@@ -1,5 +1,7 @@
 # Loyalty Program Features
 
+Contributed by: [@ilyaostrovskygit](https://github.com/ilyaostrovskygit)
+
 **The idea behind** 
 
 Redeeming points for rewards often indicates that the customer is actively taking advantage of the loyalty program, which is a good indicator of loyalty to the service. Collecting points without redeeming them or only redeeming them infrequently may not be sufficient to indicate customer satisfaction or loyalty.
@@ -9,9 +11,8 @@ Redeeming points for rewards often indicates that the customer is actively takin
 Transactional data on collecting and redeeming loyalty points or bonuses by customers. This includes information on the customer's transactions, such as the number of points earned or redeemed, the date and time of the transaction, and the type of rewards or bonuses redeemed. This data is typically collected through point-of-sale (POS) systems, customer relationship management (CRM) platforms, or other loyalty program management tools.
 
 ## Redeemed bonuses by time period
-Contributed by: [@alex](https://github.com/FeatureHub-AI/FeatureHub/blob/b7b8a35a7e325dc50bd6d182ad17289e4da019bf/telecom/Last%20SIM%20Change.md)
-Detailed: methodology, code data source [Redeemed bonuses by time period](https://github.com/FeatureHub-AI/FeatureHub/blob/b7b8a35a7e325dc50bd6d182ad17289e4da019bf/telecom/Last%20SIM%20Change.md)
 
+Methodology, code data source [here](https://github.com/FeatureHub-AI/FeatureHub/blob/b7b8a35a7e325dc50bd6d182ad17289e4da019bf/telecom/Last%20SIM%20Change.md)
 
 The total number of loyalty points or bonuses that a customer has redeemed during specific period of time
 
