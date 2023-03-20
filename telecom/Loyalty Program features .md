@@ -1,6 +1,4 @@
-# Loyalty  Program features
-
-# **Loyalty Program Features**
+# Loyalty Program Features
 
 **The idea behind** 
 
