@@ -1,4 +1,4 @@
-# Complete List of Kaggle Competition Features Home Credit
+# Complete List of Home Credit Kaggle Competition Features
 ## From Kaggler: https://www.kaggle.com/code/tunguz/xgb-simple-features
 
 ### Pre-processed
