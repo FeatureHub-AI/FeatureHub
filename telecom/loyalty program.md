@@ -8,10 +8,12 @@ Redeeming points for rewards often indicates that the customer is actively takin
 
 Transactional data on collecting and redeeming loyalty points or bonuses by customers. This includes information on the customer's transactions, such as the number of points earned or redeemed, the date and time of the transaction, and the type of rewards or bonuses redeemed. This data is typically collected through point-of-sale (POS) systems, customer relationship management (CRM) platforms, or other loyalty program management tools.
 
-## Redeemed **bonuses by time period**
-The total number of loyalty points or bonuses that a customer has redeemed during specific period of time
+## Redeemed bonuses by time period
+Contributed by: [@alex](https://github.com/FeatureHub-AI/FeatureHub/blob/b7b8a35a7e325dc50bd6d182ad17289e4da019bf/telecom/Last%20SIM%20Change.md)
+Detailed: methodology, code data source [Redeemed bonuses by time period](https://github.com/FeatureHub-AI/FeatureHub/blob/b7b8a35a7e325dc50bd6d182ad17289e4da019bf/telecom/Last%20SIM%20Change.md)
 
-[Detailed feature: methodology, code data source](https://towardsdatascience.com/end-to-end-machine-learning-project-telco-customer-churn-90744a8df97d)
+
+The total number of loyalty points or bonuses that a customer has redeemed during specific period of time
 
 **LP_SWAP_SUM_ALL**: The sum of redeemed bonuses -  since enrolment 
 
@@ -32,6 +34,8 @@ The total number of loyalty points or bonuses that a customer has redeemed durin
 **LP_SWAP_SUM_W4**: The sum of redeemed bonuses - during the 4th week prior to the scoring date
 
 **LP_SWAP_SUM_12M:** The sum of redeemed bonuses - in the last year prior to the scoring date
+
+
 
 ## Frequency of bonus redemption
 The number of times the user has exchanged bonuses for rewards in the certain period
