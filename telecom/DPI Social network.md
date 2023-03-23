@@ -1,7 +1,14 @@
-# Idea behind:
+# Loyalty program
+
+Contributed by: [@alexfhgit](https://github.com/alexfhgit)<br> 
+Inspired by: [@alexfhgit](https://github.com/alexfhgit) projects <br>
+
+**Idea behind**
+
 Nowadays we live and spend time in social networks. For most of us having mobile device and using mobile data is equal to using social networks. It is up to you what to treat as a social network, best practice is to atleast include facebook, instagram, reddit, snapchat, tiktok.
 
-# Data source:
+**Data source**
+
 We need a DPI, aka Deep Packet Inspection system, to be used by operator to identify traffic protocols and categorise them as social network. It would be easier if you have a dimension / dictionary table that identifies each protocol to categories and subcategories. In this case understanding social network.
 
 ## Count of days with at least 1 session start
@@ -98,5 +105,4 @@ We need a DPI, aka Deep Packet Inspection system, to be used by operator to iden
 **DPI_SOCIAL_VOL_PART_M2_3M**:	ratio volume with Internet traffic social networks, month 2 to the amount for 3 months
 
 **DPI_SOCIAL_VOL_PART_M3_3M**:	ratio volume with Internet traffic social networks, month 3 to the amount for 3 months
-
 
