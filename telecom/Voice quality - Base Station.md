@@ -7,7 +7,7 @@ Contributed by: [@irenegrv](https://github.com/IreneGrv) Origin: [@alexfhgit](h
 
 The quality of voice connection is essential for subscribers because it affects their ability to communicate effectively. It is a core service they subscribed for and, as all customers, expect it to be good and reliable. Such unpleasant events like call dropouts, lack of clarity, and miscommunication affect customer experience as well as future behavior directly. **Base stations (BS)** are responsible for the quality of voice services. During a given period customer moves between different **base stations.** We want to measure the minimal, maximal and average quality of communication base, which customer experienced over a given period and check what impact it has.
 
-**Data source:** The data source for these features could be voice quality measurements from telecommunication networks.
+**Data source:** You will need a voice call events per subscriber with detailisation on which Base Station happend this call. Take the first BS if customer had reconnections between them. And you will need a dimension table with BS quality measurements to perform joins and intersections in your analysis. 
 
 ## Average of quality indicators of all base stations on the customer territory(T)
 
