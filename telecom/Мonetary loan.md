@@ -1,5 +1,3 @@
-# Untitled
-
 # Monetary loan
 
 Contributed by: [@ilyaostrovskygit](https://github.com/ilyaostrovskygit)
