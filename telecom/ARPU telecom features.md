@@ -1,7 +1,7 @@
-# The list of ARPU features fot telecom:
+# The list of ARPU features for telecom:
 
 1. **`ARPU`**: Average revenue per user, which is the total revenue generated from all subscribers divided by the total number of subscribers. Aggregated over w4, w3, w2, w1, m3, m2, m1, 6m, 4w, and 3m.
-2.  **`ARPU_AP`**: Average revenue per subscriber on subscription boards in the tariff. Aggregated over w4, w3, w2, w1, m3, m2, m1, 6m, 4w, and 3m.
+2.  **`ARPU_AP`**: Average revenue per subscriber on abonement price (monthly, daily charges) in the tariff. Aggregated over w4, w3, w2, w1, m3, m2, m1, 6m, 4w, and 3m.
 3.  **`ARPU_AP_AVG`**: Average of 12 monthly ARPU_AP values.
 4.  **`ARPU_AP_MAX`**: Maximum of 12 monthly ARPU_AP values.
 5.  **`ARPU_AP_MIN`**: Minimum of 12 monthly ARPU_AP values.
