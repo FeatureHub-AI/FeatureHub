@@ -5,7 +5,7 @@ Inspired by: [@alexfhgit](https://github.com/alexfhgit) projects <br>
 
 **Idea behind**
 
-Nowadays we live and spend time in messengers. For most of us having mobile device and using mobile data is equal to using messengers. It is up to you what to treat as a messangers, best practice is to atleast include telegram, whatsapp, viber, facebook messengers, signal.
+Nowadays, we spend most of our time in messengers. For many of us, having a mobile device and using mobile data means using messengers. It's up to you to decide what to include as messengers, but best practice is to at least include Telegram, WhatsApp, Viber, Facebook Messenger, and Signal.
 
 **Data source**
 
