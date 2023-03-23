@@ -11,7 +11,9 @@ Nowadays we live and spend time in social networks. For most of us having mobile
 
 We need a DPI, aka Deep Packet Inspection system, to be used by operator to identify traffic protocols and categorise them as social network. It would be easier if you have a dimension / dictionary table that identifies each protocol to categories and subcategories. In this case understanding social network.
 
-## Count of days with at least 1 session start
+## Count of days of usage
+Take all days that have at least 1 session with social network traffic
+
 **DPI_SOCIAL_CNT_W1**:	The number of days with Internet traffic social networks, week
 
 **DPI_SOCIAL_CNT_W2**:	The number of days with Internet traffic social networks, week 2
@@ -59,7 +61,9 @@ We need a DPI, aka Deep Packet Inspection system, to be used by operator to iden
 **DPI_SOCIAL_CNT_PART_M3_3M**:	The ratio of the number of days with the Internet traffic social networks, month 3 to the amount for 3 months
 
 
-## Volume consumed, including download and upload traffic
+## Volume consumed
+Sum total volume consumed on this type of traffic, including download and upload
+
 **DPI_SOCIAL_VOL_W1**:	volume with Internet traffic social networks, week
 
 **DPI_SOCIAL_VOL_W2**:	volume with Internet traffic social networks, week 2
