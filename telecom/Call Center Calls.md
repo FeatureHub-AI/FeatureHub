@@ -1,6 +1,6 @@
 # Calls to the call center
 
-Contributed by: @irenegrv Origin: @alexfhgit projects
+Contributed by: [@irenegrv](https://github.com/IreneGrv) Origin: [@alexfhgit](https://github.com/alexfhgit) projects
 
 **Idea behind**
 
