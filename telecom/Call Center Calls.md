@@ -1,5 +1,7 @@
 # Calls to the call center
 
+Contributed by: @irenegrv Origin: @alexfhgit projects
+
 **Idea behind**
 
 Customers do not typically reach out to a call center every day. Usually, they do so when they encounter a problem and require assistance to find a solution or seek information. It can be assumed that customers who call the contact center, rather than giving up on the service entirely, are likely loyal and engaged subscribers who see value in the services offered. Depending on whether the issue was resolved, their interaction with the call center can either improve or decrease customer satisfaction. In order to better understand customer behavior, we aim to investigate how the time since their last contact with the call center, duration of calls and ratio affects their engagement with the company. We also want to include to our analyses calls to competitor’s call center as iy may be an important indicator of future churn.
