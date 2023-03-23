@@ -13,7 +13,7 @@ We need a DPI, aka Deep Packet Inspection system, to be used by operator to iden
 
 
 ## Count of days of usage
-Take all days that have at least 1 session with social network traffic
+Take all days that have at least 1 session with competitor domains visits
 
 **DPI_SITE_CMP_CNT_W1**:	number of visits to competitors, week 1
 
