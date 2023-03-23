@@ -1,7 +1,7 @@
 
-# **Theme Color**
+# **System Theme Color**
 
-The theme color feature allows users to customize the background color of their phone by switching between light mode and dark mode.
+The system theme color feature allows users to customize the background color of their phone by switching between light mode and dark mode.
 
 ## **The idea behind**
 
@@ -9,22 +9,24 @@ By default, the theme is set to light mode, but users have the option to switch 
 
 ## **Methodology**
 
-To implement the theme color feature, we used a simple approach that involves detecting whether the user has switched to dark mode or light mode and updating the background color of the phone accordingly. This was achieved through a formula that maps the state of the phone's theme color setting to a specific background color.
+You need to gather user_propertie_theme from your app SDK.
 
 ### **Data source**
 
-The theme color feature does not require external data sources. Instead, it relies on the user's selection of either light or dark mode to determine the appropriate background color for the phone.
+Any event tracking system, e.g. amplitude, bigquery, adjust, appslyfer, etc.
 
 ### **SQL code**
-
-Does not require any SQL code to assemble the feature as it is natively built into the phone's operating system.
-
-### **Result table (example of how to calculate the feature)**
-
-| Theme Color | Background Color |
-| --- | --- |
-| Light | #FFFFFF |
-| Dark | #000000 |
+``` sql
+select user_id, user_properties_system_theme as theme
+from (
+	select user_id, user_properties_system_theme, row_number() over (partition by user_id order by event_time asc) as seqnum
+	from your_database.your_dataset 
+	where true 
+		and user_id is not null
+		and user_properties_system_theme is not null
+) t1
+where t1.seqnum = 1
+```
 
 ## **Feature performance**
 <img width="313" alt="Screenshot 2023-03-15 at 13 13 46" src="https://user-images.githubusercontent.com/120475714/225306065-04ed9e8a-ec50-4346-a1c4-73fbefcaef2a.png">
