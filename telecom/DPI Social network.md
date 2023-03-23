@@ -1,91 +1,102 @@
- 
-<!--
-NAME: Active Days Combination
-TAGS
-Industries: Telecom
-Tasks: Churn prediction, LTV
-Sources: FeatureHub.AI
-Entities: Active Days
- -->
- 
-# Active Days Combination
+# Idea behind:
+Nowadays we live and spend time in social networks. For most of us having mobile device and using mobile data is equal to using social networks. It is up to you what to treat as a social network, best practice is to atleast include facebook, instagram, reddit, snapchat, tiktok.
 
-The combination of active days over a period of time is a way of encoding the customers activity, which includes usage of any type of services provided by operator.
+# Data source:
+We need a DPI, aka Deep Packet Inspection system, to be used by operator to identify traffic protocols and categorise them as social network. It would be easier if you have a dimension / dictionary table that identifies each protocol to categories and subcategories. In this case understanding social network.
 
-## The idea behind
+# Count of days with at least 1 session start
+**DPI_SOCIAL_CNT_W1**:	The number of days with Internet traffic social networks, week
 
-The combination of active days over a period provides insight into the usage patterns and habits of customers. During the week subscriber can have '1111111' or '1101010' combination. In the first case we see that subscriber uses services every day, which has a positive effect on his activity, no silent days and, as a result, reduces his probability to churn. However, in the second case we see that subscriber is less active and uses services less frequently which can be a sign of deliberately reduced activity which increases his chances to cancel subscription.
+**DPI_SOCIAL_CNT_W2**:	The number of days with Internet traffic social networks, week 2
 
-#### Example 
+**DPI_SOCIAL_CNT_W3**:	The number of days with Internet traffic social networks, week 3
 
-This is Julia. She used to use her phone every day. But recently she is not satisfied with her mobile provider so she reduced her usage to a minimum, only to make calls to contacts who uses the same mobile network.  
+**DPI_SOCIAL_CNT_W4**:	The number of days with Internet traffic social networks, week 4
 
+**DPI_SOCIAL_CNT_4W**:	The number of days with Internet traffic social networks, in 4 weeks
 
-## Methodology 👨🏻‍💻
+**DPI_SOCIAL_CNT_M1**:	The number of days with Internet traffic Social Networks, month 1
 
-The combination of active days over a period is represented by a number of variables, called "ACT_COMB_PERIOD". 
-To calculate the combination of active days for one week per subscriber, you will need to create a 7-day binary vector for each subscriber where each element represents the active or not active status for that day. For every day active customer you will see '1111111', for customer that was active 5 days in a row but last 2 days was silent you will see '1111100'
+**DPI_SOCIAL_CNT_M2**:	The number of days with Internet traffic social networks, month 2
 
-**Hint**: So we have array of 7 days, starting from left to right. The left or first element represents activity status for the most latest day of a period, whil right or last element represents activity status for the most recent day of a chosen period. We recommend to utilize your own methodology of activity and test different ways. For example it is common to count customer active if he either generates ougoing calls OR outgoing SMS OR spend over 20 MB of data. It is much easier to pre-aggregate daily activity data, because SQL / python code might look too complex. We recommend starting with at least weekly activity patterns because they include all week days at least once.
+**DPI_SOCIAL_CNT_M3**:	The number of days with Internet traffic social networks, month 3
 
+**DPI_SOCIAL_CNT_3M**:	The number of days with Internet traffic social networks, in 3 months
 
-#### Metacode example
+**DPI_SOCIAL_CNT_PCT5_4W**:	The number of days with Internet traffic social networks, in 4 weeks, Persentil 5
 
-Here is the example of SQL code to create ACT_COMB_W1.
+**DPI_SOCIAL_CNT_PCT10_4W**:	The number of days with Internet traffic social networks, in 4 weeks, Persentil 10
 
-```
--- It is highly dependent on your available datasets. We can help you generate code if you contact us and share your data schema. 
--- If you know universal template, please contribute.
+**DPI_SOCIAL_CNT_PCT25_4W**:	The number of days with Internet traffic social networks, in 4 weeks, Persentil 25
 
-```
+**DPI_SOCIAL_CNT_PCT50_4W**:	The number of days with Internet traffic social networks, in 4 weeks, Persentil 50
 
-#### Variables
+**DPI_SOCIAL_CNT_PCT75_4W**:	The number of days with Internet traffic social networks, in 4 weeks, Persentil 75
 
-We used the following variables
+**DPI_SOCIAL_CNT_PCT90_4W**:	The number of days with Internet traffic social networks, in 4 weeks, Persentil 90
 
-```sql
-# For 1 week
-ACT_COMB_W1
+**DPI_SOCIAL_CNT_PCT95_4W**:	The number of days with Internet traffic social networks, in 4 weeks, Persentil 95
 
-# For 2 week - this refers to exact 2nd week prior to snapshot date, e.g. event_date between current_date - 15 and current_date - 8
-ACT_COMB_W2
+**DPI_SOCIAL_CNT_PART_W1_4W**:	The ratio of the number of days with the Internet traffic social networks, week 1 to the amount in 4 weeks
 
-# For 3 week
-ACT_COMB_W3
+**DPI_SOCIAL_CNT_PART_W2_4W**:	The ratio of the number of days with the Internet traffic social networks, week 2 to the amount in 4 weeks
 
-# For 4 week
-ACT_COMB_W4
-```
+**DPI_SOCIAL_CNT_PART_W3_4W**:	The ratio of the number of days with Internet traffic social networks, week 3 to the amount in 4 weeks
 
-## Data source
+**DPI_SOCIAL_CNT_PART_W4_4W**:	The ratio of the number of days with the Internet traffic social networks, week 4 to the amount of 4 weeks
 
-You need any daily snapshot dataset per each subscriber.
+**DPI_SOCIAL_CNT_PART_M1_3M**:	The ratio of the number of days with the Internet traffic social networks, month 1 to the amount for 3 months
 
-#### Datasets
+**DPI_SOCIAL_CNT_PART_M2_3M**:	The ratio of the number of days with the Internet traffic social networks, month 2 to the amount for 3 months
 
-LA or ASPN - the Last Activity or Antisuspension snapshot tables, with a daily aggregated data of a whole customer base.
+**DPI_SOCIAL_CNT_PART_M3_3M**:	The ratio of the number of days with the Internet traffic social networks, month 3 to the amount for 3 months
 
 
-#### Minimum required data
+# Volume consumed, including download and upload traffic
+**DPI_SOCIAL_VOL_W1**:	volume with Internet traffic social networks, week
 
-- Subscriber ID: A unique identifier for each subscriber.
-- Activity snapshot date: The date of calculating customer status either active or silent
-- Activity status: A binary column where 1 = active and 0 = not active or silent.
+**DPI_SOCIAL_VOL_W2**:	volume with Internet traffic social networks, week 2
 
-#### Data example
-| subscriber_id | activity_date       | active |
-|----------------|---------------------|--------|
-| 123456         | 2021-01-01           |  1      |
-| 123456         | 2021-01-02          | 0      |
-| 123456         | 2021-01-03           | 0      |
-| 123456         | 2021-01-04           |  1      |
-| 123456         | 2021-01-05           |  1      |
+**DPI_SOCIAL_VOL_W3**:	volume with Internet traffic social networks, week 3
+
+**DPI_SOCIAL_VOL_W4**:	volume with Internet traffic social networks, week 4
+
+**DPI_SOCIAL_VOL_4W**:	volume with Internet traffic social networks, in 4 weeks
+
+**DPI_SOCIAL_VOL_M1**:	volume with Internet traffic social networks, month 1
+
+**DPI_SOCIAL_VOL_M2**:	volume with Internet traffic social networks, month 2
+
+**DPI_SOCIAL_VOL_M3**:	volume with Internet traffic social networks, month 3
+
+**DPI_SOCIAL_VOL_3M**:	volume with Internet traffic social networks, in 3 months
+
+**DPI_SOCIAL_VOL_PCT5_4W**:	volume with Internet traffic social networks, in 4 weeks, Persentil 5
+
+**DPI_SOCIAL_VOL_PCT10_4W**:	volume with Internet traffic social networks, in 4 weeks, Persentil 10
+
+**DPI_SOCIAL_VOL_PCT25_4W**:	volume with Internet traffic social networks, in 4 weeks, Persentil 25
+
+**DPI_SOCIAL_VOL_PCT50_4W**:	volume with Internet traffic social networks, in 4 weeks, Persentil 50
+
+**DPI_SOCIAL_VOL_PCT75_4W**:	volume with Internet traffic social networks, in 4 weeks, Persentil 75
+
+**DPI_SOCIAL_VOL_PCT90_4W**:	volume with Internet traffic social networks, in 4 weeks, Persentil 90
+
+**DPI_SOCIAL_VOL_PCT95_4W**:	volume with Internet traffic social networks, in 4 weeks, Persentil 95
+
+**DPI_SOCIAL_VOL_PART_W1_4W**:	ratio volume with Internet traffic Social networks, week 1 to the amount in 4 weeks
+
+**DPI_SOCIAL_VOL_PART_W2_4W**:	ratio volume with Internet traffic Social networks, week 2 to the amount in 4 weeks
+
+**DPI_SOCIAL_VOL_PART_W3_4W**:	ratio volume with Internet traffic Social networks, week 3 to the amount in 4 weeks
+
+**DPI_SOCIAL_VOL_PART_W4_4W**:	ratio volume with Internet traffic social networks, week 4 to the amount in 4 weeks
+
+**DPI_SOCIAL_VOL_PART_M1_3M**:	ratio volume with Internet traffic social networks, month 1 to the amount for 3 months
+
+**DPI_SOCIAL_VOL_PART_M2_3M**:	ratio volume with Internet traffic social networks, month 2 to the amount for 3 months
+
+**DPI_SOCIAL_VOL_PART_M3_3M**:	ratio volume with Internet traffic social networks, month 3 to the amount for 3 months
 
 
-## Additional info
-
-#### Origin 🕵🏻‍♂️
-
-This type of features appeared after neural network hype and sequence analysis. This way of transformation proved its performance in deep learning algoriths and found its place in classic supervised machine learning.
-
-#### Related articles 📚
