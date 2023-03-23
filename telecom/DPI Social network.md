@@ -1,4 +1,4 @@
-# Loyalty program
+# DPI Social Network
 
 Contributed by: [@alexfhgit](https://github.com/alexfhgit)<br> 
 Inspired by: [@alexfhgit](https://github.com/alexfhgit) projects <br>
