@@ -10,7 +10,7 @@ Call logs: Call logs are records that document each call made or received by the
 
 Call center software: Many call centers use specialized software to manage their operations. This software can track call duration automatically and provide detailed reports on call volume, call duration, and other key metrics.
 
-## Days since last call center contact**
+## Days since last call center contact
 
 Number of days that have elapsed since a customer's previous call to the contact center
 
@@ -18,7 +18,7 @@ Number of days that have elapsed since a customer's previous call to the contact
 
 **TRAF_CC_DAYS_CNT_LAST**: The number of days from the moment of the last call to contact the call center, for 12 months
 
-## Duration of calls to the call center**
+## Duration of calls to the call center
 
 **TRAF_CC_DUR_W1**: The duration of calls to contact the call center is its, week 1
 
@@ -38,7 +38,7 @@ Number of days that have elapsed since a customer's previous call to the contact
 
 **TRAF_CC_DUR_3M**: The duration of calls to contact the call center, for 3 months
 
-**The duration of calls to the competitor’s call center**
+## The duration of calls to the competitor’s call center
 
 **TRAF_CC_CMP_DUR_W1:** The duration of calls to the call center of competitors, week 1
 
@@ -58,7 +58,7 @@ Number of days that have elapsed since a customer's previous call to the contact
 
 **TRAF_CC_CMP_DUR_3M:** The duration of calls to the call center of competitors, for 3 months
 
-## Ratio of calls duration to call center**
+## Ratio of calls duration to call center
 
 **TRAF_CC_DUR_PART_W1_4W:** The ratio of the duration of calls to contact the center is its own, week 1 to the amount in 4 weeks 
 
@@ -74,7 +74,7 @@ Number of days that have elapsed since a customer's previous call to the contact
 
 **TRAF_CC_DUR_PART_M3_3M:** The ratio of the duration of calls to contact the center is its own, month 3 to the amount for 3 months
 
-## Ratio of calls duration to the competitors call center**
+## Ratio of calls duration to the competitors call center
 
 **TRAF_CC_CMP_DUR_PART_W1_4W:** The ratio of the duration of calls to contact the center of competitors, week 1 to the amount of 4 weeks
 
