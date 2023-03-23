@@ -69,6 +69,7 @@ Customer belongs to region or territory (T) for example,  Paris, Lyon, Kiev regi
 **BS_VOICE_QLT_MIN_3M**: Minimum of quality indicators of all base stations customer made call through, for 3 months
 
 ## **Weighted average** of quality indicators of all base stations customer made call through
+Weighted average (relatively to number of calls) of quality indicators of all BSs that customer made calls through
 
 **BS_VOICE_QLT_WAVG_W1**: Weighted average of quality indicators of all base stations customer made call through, week 1
 
