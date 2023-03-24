@@ -9,10 +9,12 @@ Many things happen on background / engineering level while operator provides ser
 
 **Data source**
 
-Operator need probing or reject system where he stores technical logs of all network events. You will need a mapping / dictionary / dimension table that explains status codes on why call was successful or not. After Drop Call event, the next popular thing is Recall event.
+Operator need probing or reject system where the technical logs of all network events are stores. You will need a mapping / dictionary / dimension table that explains status codes on why call was successful or not. After Drop Call event, the next popular thing is Recall event.
 
-## Count of events occured
-Count events for a specific period of time
+## Number of recalls per period
+Count of recall events for a specific period of time
+
+<!--Is it per user  ?-->
 
 **RCR_ALL_CNT_W1**:	number of recall, week 1
 
@@ -32,6 +34,10 @@ Count events for a specific period of time
 
 **RCR_ALL_CNT_3M**:	number of recall, in 3 months
 
+
+## Number of recalls per percentile per period
+<!-- Need description hereWHAT is PCT? percentile from what? Not clear. Neeed to gove a name here -->
+
 **RCR_ALL_CNT_PCT5_4W**:	the amount of recall, in 4 weeks, Percentile 5
 
 **RCR_ALL_CNT_PCT10_4W**:	the amount of recall, in 4 weeks, Percentile 10
@@ -45,6 +51,10 @@ Count events for a specific period of time
 **RCR_ALL_CNT_PCT90_4W**:	the amount of recall, in 4 weeks, Percentile 90
 
 **RCR_ALL_CNT_PCT95_4W**:	The amount of recall, in 4 weeks, Percentile 95
+
+
+## Part or ratio? or what?
+<!-- Need description here-->
 
 **RCR_ALL_CNT_PART_W1_4W**:	ratio the amount of recall, week 1 to the amount in 4 weeks
 
