@@ -53,4 +53,4 @@ Some possible data sources include:
 
 ## Active services feature
 
-**SRV_ALL_CNT:**	The number of active services (all)
+- **SRV_ALL_CNT:**	The number of active services (all)
