@@ -1,4 +1,5 @@
-# Ratio of the Amount of Credit Taken to the Amount of Annuity to Be Paid by the Borrower
+# Credit to Annuity Ratio
+Ratio of the amount of credit taken to the amount of annuity to be paid by the borrower
 
 ## **The idea behind**
 
@@ -33,8 +34,8 @@ As an example, we can create a table **`loan_info`** with the following columns 
 ### **Code**
 
 ```sql
-sqlCopy code
-SELECT SK_ID_CURR, AMT_CREDIT, AMT_ANNUITY, AMT_CREDIT / AMT_ANNUITY ASNEW_CREDIT_TO_ANNUITY_RATIO FROM loan_info;
+SELECT SK_ID_CURR, AMT_CREDIT, AMT_ANNUITY, AMT_CREDIT / AMT_ANNUITY ASNEW_CREDIT_TO_ANNUITY_RATIO 
+FROM loan_info;
 
 ```
 
