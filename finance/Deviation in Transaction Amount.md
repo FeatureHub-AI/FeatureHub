@@ -43,7 +43,9 @@ The SQL code to create this feature is as follows:
 
 ```sql
 
-SELECT transaction_id, sender_account, receiver_account, transaction_amount, credit_amount, ABS(transaction_amount - credit_amount) AS deviation_in_amount FROMtransaction_table;
+SELECT transaction_id, sender_account, receiver_account, transaction_amount, credit_amount, ABS(transaction_amount - credit_amount) 
+AS deviation_in_amount 
+FROM transaction_table;
 
 ```
 
