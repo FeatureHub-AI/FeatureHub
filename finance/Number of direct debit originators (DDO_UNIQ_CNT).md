@@ -19,7 +19,7 @@ The data source is a transaction table with columns:
 | client_id | Unique identifier of the client |
 | transaction_id | Unique identifier of the transaction |
 | operation_date | Date when the transaction occurred |
-| counterpart_name | Name of the direct debit originator |
+| counterpart_name | Name of the other party involved in a financial transaction |
 | transaction_method | Method used to make the transaction (direct_debit, card, transfer) |
 
 Here is an example of the transaction table
