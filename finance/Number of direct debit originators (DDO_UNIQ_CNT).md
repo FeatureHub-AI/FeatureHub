@@ -57,7 +57,7 @@ FROM
     transactions
 WHERE
     transaction_method = 'direct_debit'
-    AND operation_date >= DATEADD(month, -1, @scoring_date)
+    AND operation_date >= DATE_ADD(scoring_date, INTERVAL -1 MONTH)
 GROUP BY
     client_id
 ```
