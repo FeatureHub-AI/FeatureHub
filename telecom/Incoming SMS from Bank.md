@@ -6,30 +6,6 @@ The number of incoming SMS messages from a bank refers to the number of text mes
 
 Interaction with banks and other financial institutions is an integral part of our everyday life. The number of SMS messages a subscriber receives will depend on the bank's messaging policy, the customer's account settings, and the type of account they have. The high number of incoming SMS from the bank also allows us to suggest an active, advanced, and modern user who uses his phone also to connect to external services in order to stay up-to-date. 
 
-#### Example 
-
-This is Michael. He is a progressive, tech-savvy user. He has a Netflix subscription and a Spotify subscription, and he has several apps for online shopping, news, and taxi on his phone. Michael has Apple Pay and bank services app. He values good and quality service that saves his time, he has a dynamic life, and likes to stay up-to-date. SMS from the bank allows him to track his expenses, adjust his budget and monitor his bank account state. His real life routine generates at least 1 SMS notification every day.  
-
-## Key effects
- 
-#### 💡 Effect on churn prediction
-
-Progressive and tech-savvy subscribers usually have more expectations for the services and features offered by their telecom provider. They tend to switch to a different provider if they feel that their current provider is not meeting their needs or is not keeping up with industry trends. They may also be more likely to be influenced by social media, online reviews, and the opinions of their peers when making a decision to switch providers.
-
-#### 💡 Effect on usage patterns
-
-Progressive subscribers are likely to be heavy users of technology and may have a higher demand for data-intensive services such as streaming video and music, online gaming, and social media. They may also be more likely to use multiple devices and to use their devices throughout the day, which can lead to higher data usage.
-
-They may also be more likely to use their smartphones as their primary means of communication, which can lead to higher usage of voice and text services.
-
-Progressive and young subscribers may also be more likely to use services like voice-over-IP (VoIP), instant messaging, and social media messaging instead of the traditional phone and SMS services.
-
-#### 💡 Effect on LTV prediction
-
-Progressive telecom subscribers may have a higher LTV because they are likely to be early adopters of new technology and services, and may be more likely to stick with a provider that is able to meet their evolving needs. They may also be more likely to pay a premium for advanced features or higher data allowances.
-
-On the other hand, these subscribers may also have a lower LTV if they are more likely to switch providers if they feel their current provider is not meeting their needs, or if they are more price-sensitive and may be more likely to switch to a cheaper provider.
-
 ## Methodology 👨🏻‍💻
 
 The number of incoming SMS messages from a bank is represented by a number of variables, called "SMS_INC_BANK_CNT_PERIOD". 
