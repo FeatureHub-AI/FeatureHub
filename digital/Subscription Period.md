@@ -38,8 +38,9 @@ The data source used for calculating the subscription period is the subscription
 The following SQL code can be used to calculate the subscription period:
 
 ```sql
-sqlCopy code
-SELECT user_id, start_date, end_date, DATEDIFF(end_date, start_date) ASsubscription_period_days FROM subscription_history;
+SELECT user_id, start_date, end_date, 
+DATEDIFF(end_date, start_date) ASsubscription_period_days 
+FROM subscription_history;
 
 ```
 
