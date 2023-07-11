@@ -20,6 +20,7 @@ Here is the example of SQL code to create SMS_INC_BANK_CNT_W1
 ```sql
 
 SELECT
+  subscriber_id,
   COUNT(*) FILTER(
   WHERE
     sender_type = 'bank'
@@ -27,6 +28,8 @@ SELECT
     AND -1) AS SMS_INC_BANK_CNT_W1
 FROM
   sms_messages
+GROUP BY
+ subscriber_id
 
 ```
 Please note that this query is just an example, and you may need to adjust the table and column names to match the structure of your own SMS data table.
