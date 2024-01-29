@@ -2,7 +2,7 @@
 
 ## **The idea behind**
 
-The idea behind the "Sales volume of interchangeable products" feature is to analyze the sales performance of substitute items when a specific item or flavor is not available. This helps understand customer behavior and the impact of product unavailability on overall sales.
+Referring to the idea of substitutes if a specific item or flavor is not available on the shelf, customers will choose another one; for example, various types of drinking yogurts or buttermilk). Feature acknowledges that some customers might have a preference for the initially desired product
 
 ## **Methodology**
 
